@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = Sukh Assistant
 
 # (str) Package name
 package.name = myapp
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements =  hostpython3==3.7.9,python3==3.7.9,kivy==2.1.0,speech_recognition==3.8.1,pyttsx3==2.90
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.7.9
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
